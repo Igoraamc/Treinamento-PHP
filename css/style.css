@@ -1,0 +1,86 @@
+body {
+	background-color: #f3f3f3;
+}
+.navbar {
+	border-radius: 0px;
+}
+.container {
+	margin-top: 20px;
+	font-family: 'Bitter', serif;
+}
+#home .content-top h1, #home .content-top h3 {
+	font-weight: bold;
+	color: white;
+}
+#home .content-top {
+	background-color: black;
+	width: 100%;
+    height: 100%;
+    padding: 3px 10px 30px 10px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+#home .content-side h3 {
+    color: #373738;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+#home .content-side {
+	background-color: #dbdbdb;
+	padding: 25px;
+}
+#home .content-bot {
+	margin-top: 30px;
+}
+#home .content-bot .card-bot .card-img {
+	height: 100px;
+	width: 100px;
+	display: table;
+	margin: 0 auto;
+}
+#home .content-bot .card-bot .card-img img {
+	border-radius: 50%;
+}
+#home .nav-tabs.nav-justified {
+	background-color: #dbdbdb;
+}
+#home .nav-tabs.nav-justified a {
+	color: black;
+}
+#home .nav-tabs.nav-justified>.active>a {
+	background-color: black;
+    border: 0px;
+    color: white;
+}
+.container .center {
+	display: table;
+	margin: 0 auto;
+}
+.container .input-group{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.container .input-group label {
+	color: white;
+}
+.container .input-group input {
+	border-radius: 0px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+.container .input-group input:-webkit-autofill {
+	background-color: black !important;
+	-webkit-box-shadow: 0 0 0px 1000px black inset !important;
+	-webkit-text-fill-color: white;
+}
+.container .white-btn {
+	width: 100%;
+	height: 36px;
+	background: linear-gradient(to right, white , #a9a9a9);
+	border: 0;
+}
+.container .white-btn:hover {
+	-webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+}
